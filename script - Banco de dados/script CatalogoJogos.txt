@@ -1,0 +1,20 @@
+create database CatalogoJogos;
+
+use CatalogoJogos;
+
+--Criar Tabela Jogos
+create table Jogos
+(
+	Id uniqueidentifier,
+	Nome varchar(50),
+	Produtora varchar(50),
+	Preco float
+);
+
+--Inserir dados para testar.
+insert Jogos values ('0ca314a5-9282-45d8-93c3-2985f2a9fd84', 'Fifa 21', 'EA', 100);
+insert Jogos values ('0ca314a5-9282-45d8-93c3-2985f2a9fd85', 'Fifa 20', 'EA', 110);
+insert Jogos values ('0ca314a5-9282-45d8-93c3-2985f2a9fd86', 'Fifa 19', 'EA', 120);
+insert Jogos values ('0ca314a5-9282-45d8-93c3-2985f2a9fd87', 'Fifa 18', 'EA', 130.50);
+insert Jogos values ('0ca314a5-9282-45d8-93c3-2985f2a9fd88', 'Street Fighter V', 'Capcom', 140.99);
+insert Jogos values ('0ca314a5-9282-45d8-93c3-2985f2a9fd89', 'Grand Thief Auto', 'Rockstar', 150);
